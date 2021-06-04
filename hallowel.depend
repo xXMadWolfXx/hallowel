@@ -1,0 +1,349 @@
+# depslib dependency file v1.0
+1621878829 source:d:\projectc++\hallowel\main.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Personnage.h"
+	"Trublion.h"
+	"Sac.h"
+	"Horloge.h"
+	"NightCity.h"
+	"genre.h"
+	"verif.h"
+	"combat.h"
+	"creationPersonnage.h"
+	"lieu1Repaire.h"
+	"creationTrublion.h"
+
+1617064227 source:d:\projectc++\hallowel\genre.cpp
+	<iostream>
+	<string>
+	"verif.h"
+
+1610663429 d:\projectc++\hallowel\genre.h
+
+1610394220 source:d:\projectc++\hallowel\verif.cpp
+	<iostream>
+	<string>
+	<limits>
+
+1610393388 d:\projectc++\hallowel\verif.h
+	<string>
+
+1608341802 source:d:\projectc++\hallowel\debut.cpp
+	<iostream>
+	<string>
+	"verif.h"
+	"genre.h"
+
+1608341131 d:\projectc++\hallowel\debut.h
+
+1621529375 d:\projectc++\hallowel\personnage.h
+	<iostream>
+	<string>
+	"Arme.h"
+
+1621529392 source:d:\projectc++\hallowel\personnage.cpp
+	<iostream>
+	<string>
+	<ctime>
+	<cstdlib>
+	"Personnage.h"
+	"genre.h"
+	"verif.h"
+	"Arme.h"
+	"Horloge.h"
+	"calculCompetence.h"
+
+1621097985 source:d:\projectc++\hallowel\combat.cpp
+	<iostream>
+	<string>
+	"verif.h"
+	"Personnage.h"
+	"Sac.h"
+	"Caracteristiques.h"
+	"combat.h"
+	"genre.h"
+	<ctime>
+	<cstdlib>
+
+1621095715 d:\projectc++\hallowel\combat.h
+
+1609890369 source:d:\projectc++\hallowel\arme.cpp
+	<iostream>
+	<string>
+	"Arme.h"
+
+1609809539 d:\projectc++\hallowel\arme.h
+	<iostream>
+	<string>
+
+1621878514 source:d:\projectc++\hallowel\sac.cpp
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	"Sac.h"
+	"verif.h"
+	"Arme.h"
+	"Personnage.h"
+
+1619806386 d:\projectc++\hallowel\sac.h
+	<iostream>
+	<string>
+	<vector>
+	"Arme.h"
+	"Personnage.h"
+
+1611942976 source:d:\projectc++\hallowel\creationpersonnage.cpp
+	<iostream>
+	<string>
+	"Caracteristiques.h"
+	"Personnage.h"
+	"verif.h"
+	"genre.h"
+
+1610299342 d:\projectc++\hallowel\creationpersonnage.h
+	"Caracteristiques.h"
+
+1619787297 source:d:\projectc++\hallowel\caracteristiques.cpp
+	<iostream>
+	<string>
+	"Caracteristiques.h"
+
+1610475662 d:\projectc++\hallowel\caracteristiques.h
+	<iostream>
+	<string>
+	<vector>
+
+1621104357 source:d:\projectc++\hallowel\horloge.cpp
+	<iostream>
+	<string>
+	"Horloge.h"
+	"Personnage.h"
+	"Sac.h"
+	"Caracteristiques.h"
+	"NightCity.h"
+	"lieu1Repaire.h"
+
+1621099674 d:\projectc++\hallowel\horloge.h
+	<iostream>
+	<string>
+	"Personnage.h"
+	"Caracteristiques.h"
+	"Sac.h"
+	"Horloge.h"
+	"NightCity.h"
+
+1621993741 source:d:\projectc++\hallowel\nigtcity.cpp
+	<iostream>
+	<string>
+	<vector>
+	"NightCity.h"
+	"Arme.h"
+	"Personnage.h"
+	"Sac.h"
+	"verif.h"
+	"Trajet.h"
+	"Horloge.h"
+	"Sorciere.h"
+	"Marchand.h"
+	"Ombre.h"
+
+1622251591 d:\projectc++\hallowel\nightcity.h
+	<iostream>
+	"Sac.h"
+	<vector>
+
+1621994323 source:d:\projectc++\hallowel\lieu1repaire.cpp
+	<iostream>
+	"Personnage.h"
+	"Caracteristiques.h"
+	"Sac.h"
+	"Horloge.h"
+	"NightCity.h"
+	"genre.h"
+	"verif.h"
+	"lieu2Foret.h"
+	"alea.h"
+
+1620672913 d:\projectc++\hallowel\lieu1repaire.h
+
+1616691862 source:d:\projectc++\hallowel\test.cpp
+	<iostream>
+	"Test.h"
+
+1616692833 d:\projectc++\hallowel\test.h
+	<iostream>
+
+1621211365 source:d:\projectc++\hallowel\lieu2foret.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Trajet.h"
+	"Horloge.h"
+	"Personnage.h"
+	"Caracteristiques.h"
+	"Sac.h"
+	"NightCity.h"
+	"genre.h"
+	"verif.h"
+	"lieu1Repaire.h"
+	"lieu3QuartierPauvre.h"
+	"alea.h"
+
+1621993853 source:d:\projectc++\hallowel\lieu3quartierpauvre.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Personnage.h"
+	"Trublion.h"
+	"Caracteristiques.h"
+	"Sac.h"
+	"Horloge.h"
+	"NightCity.h"
+	"Sorciere.h"
+	"genre.h"
+	"verif.h"
+	"lieu1Repaire.h"
+	"lieu2Foret.h"
+	"lieu4Boutique.h"
+	"creationTrublion.h"
+	"combat.h"
+	"alea.h"
+
+1620672913 d:\projectc++\hallowel\lieu2foret.h
+
+1618272865 source:d:\projectc++\hallowel\chemin.cpp
+	<iostream>
+	"Chemin.h"
+
+1620482854 d:\projectc++\hallowel\chemin.h
+	<iostream>
+
+1621096975 source:d:\projectc++\hallowel\trajet.cpp
+	<iostream>
+	<vector>
+	"Horloge.h"
+	"Trajet.h"
+	"Chemin.h"
+	"verif.h"
+	"Personnage.h"
+	"Trublion.h"
+	"combat.h"
+	"lieu1Repaire.h"
+
+1619111985 d:\projectc++\hallowel\trajet.h
+	<iostream>
+	<vector>
+	"Chemin.h"
+	"Horloge.h"
+
+1620672913 d:\projectc++\hallowel\lieu3quartierpauvre.h
+
+1620489033 source:d:\projectc++\hallowel\alea.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+
+1621099743 d:\projectc++\hallowel\alea.h
+
+1621094907 source:d:\projectc++\hallowel\creationtrublion.cpp
+	<iostream>
+	<string>
+	<ctime>
+	<cstdlib>
+	"Horloge.h"
+	"Personnage.h"
+	"Trublion.h"
+	"creationTrublion.h"
+
+1620495644 d:\projectc++\hallowel\creationtrublion.h
+
+1621090781 source:d:\projectc++\hallowel\trublion.cpp
+	<iostream>
+	<string>
+	"Trublion.h"
+	"calculCompetence.h"
+
+1621090781 d:\projectc++\hallowel\trublion.h
+	<iostream>
+	"Personnage.h"
+
+1620498338 source:d:\projectc++\hallowel\heros.cpp
+	<iostream>
+	<string>
+	"Heros.h"
+
+1620497684 d:\projectc++\hallowel\heros.h
+	<iostream>
+	<string>
+	"Personnage.h"
+
+1622259395 source:d:\projectc++\hallowel\lieu4boutique.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Personnage.h"
+	"Caracteristiques.h"
+	"Sac.h"
+	"Horloge.h"
+	"NightCity.h"
+	"Ombre.h"
+	"Marchand.h"
+	"genre.h"
+	"verif.h"
+	"lieu1Repaire.h"
+	"lieu3QuartierPauvre.h"
+
+1621089621 source:d:\projectc++\hallowel\calculcompetence.cpp
+	<iostream>
+
+1621089621 d:\projectc++\hallowel\calculcompetence.h
+
+1621529611 source:d:\projectc++\hallowel\sorciere.cpp
+	<iostream>
+	<string>
+	"Sorciere.h"
+
+1621529437 d:\projectc++\hallowel\sorciere.h
+	<iostream>
+	"Personnage.h"
+
+1621212293 source:d:\projectc++\hallowel\lieu5parc.cpp
+	<iostream>
+	<ctime>
+	<cstdlib>
+	"Personnage.h"
+	"Caracteristiques.h"
+	"Sac.h"
+	"Horloge.h"
+	"NightCity.h"
+	"genre.h"
+	"verif.h"
+
+1622259298 source:d:\projectc++\hallowel\marchand.cpp
+	<iostream>
+	<string>
+	"Marchand.h"
+	"Arme.h"
+	"Sac.h"
+
+1622257064 d:\projectc++\hallowel\marchand.h
+	<iostream>
+	"Personnage.h"
+	"Sac.h"
+
+1622251320 source:d:\projectc++\hallowel\ombre.cpp
+	<iostream>
+	<string>
+	<ctime>
+	<cstdlib>
+	"Ombre.h"
+
+1622221405 d:\projectc++\hallowel\ombre.h
+	<iostream>
+	"Personnage.h"
+
+1620672913 d:\projectc++\hallowel\lieu4boutique.h
+

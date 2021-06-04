@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="hallowel" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="Lieux\;Joueur\;Fonctions utilitaires\;Labyrinthe\;Ennemis\;Ennemis\headers\;Fonctions utilitaires\headers\;Joueur\headers\;Labyrinthe\headers\;Lieux\headers\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/hallowel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/hallowel" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Arme.cpp">
+			<Option virtualFolder="Joueur/" />
+		</Unit>
+		<Unit filename="Arme.h">
+			<Option virtualFolder="Joueur/headers/" />
+		</Unit>
+		<Unit filename="Caracteristiques.cpp">
+			<Option virtualFolder="Joueur/" />
+		</Unit>
+		<Unit filename="Caracteristiques.h">
+			<Option virtualFolder="Joueur/headers/" />
+		</Unit>
+		<Unit filename="Chemin.cpp">
+			<Option virtualFolder="Labyrinthe/" />
+		</Unit>
+		<Unit filename="Chemin.h">
+			<Option virtualFolder="Labyrinthe/headers/" />
+		</Unit>
+		<Unit filename="Horloge.cpp">
+			<Option virtualFolder="Lieux/" />
+		</Unit>
+		<Unit filename="Horloge.h">
+			<Option virtualFolder="Lieux/headers/" />
+		</Unit>
+		<Unit filename="Marchand.cpp">
+			<Option virtualFolder="Ennemis/" />
+		</Unit>
+		<Unit filename="Marchand.h">
+			<Option virtualFolder="Ennemis/headers/" />
+		</Unit>
+		<Unit filename="NightCity.h">
+			<Option virtualFolder="Lieux/headers/" />
+		</Unit>
+		<Unit filename="NigtCity.cpp">
+			<Option virtualFolder="Lieux/" />
+		</Unit>
+		<Unit filename="Ombre.cpp">
+			<Option virtualFolder="Ennemis/" />
+		</Unit>
+		<Unit filename="Ombre.h">
+			<Option virtualFolder="Ennemis/headers/" />
+		</Unit>
+		<Unit filename="Personnage.cpp">
+			<Option virtualFolder="Joueur/" />
+		</Unit>
+		<Unit filename="Personnage.h">
+			<Option virtualFolder="Joueur/headers/" />
+		</Unit>
+		<Unit filename="Sac.cpp">
+			<Option virtualFolder="Joueur/" />
+		</Unit>
+		<Unit filename="Sac.h">
+			<Option virtualFolder="Joueur/headers/" />
+		</Unit>
+		<Unit filename="Sorciere.cpp">
+			<Option virtualFolder="Ennemis/" />
+		</Unit>
+		<Unit filename="Sorciere.h">
+			<Option virtualFolder="Ennemis/headers/" />
+		</Unit>
+		<Unit filename="Trajet.cpp">
+			<Option virtualFolder="Labyrinthe/" />
+		</Unit>
+		<Unit filename="Trajet.h">
+			<Option virtualFolder="Labyrinthe/headers/" />
+		</Unit>
+		<Unit filename="Trublion.cpp">
+			<Option virtualFolder="Ennemis/" />
+		</Unit>
+		<Unit filename="Trublion.h">
+			<Option virtualFolder="Ennemis/headers/" />
+		</Unit>
+		<Unit filename="alea.cpp">
+			<Option virtualFolder="Fonctions utilitaires/" />
+		</Unit>
+		<Unit filename="alea.h">
+			<Option virtualFolder="Fonctions utilitaires/headers/" />
+		</Unit>
+		<Unit filename="calculCompetence.cpp">
+			<Option virtualFolder="Fonctions utilitaires/" />
+		</Unit>
+		<Unit filename="calculCompetence.h">
+			<Option virtualFolder="Fonctions utilitaires/headers/" />
+		</Unit>
+		<Unit filename="combat.cpp">
+			<Option virtualFolder="Ennemis/" />
+		</Unit>
+		<Unit filename="combat.h">
+			<Option virtualFolder="Ennemis/headers/" />
+		</Unit>
+		<Unit filename="creationPersonnage.cpp">
+			<Option virtualFolder="Joueur/" />
+		</Unit>
+		<Unit filename="creationPersonnage.h">
+			<Option virtualFolder="Joueur/headers/" />
+		</Unit>
+		<Unit filename="creationTrublion.cpp">
+			<Option virtualFolder="Ennemis/" />
+		</Unit>
+		<Unit filename="creationTrublion.h">
+			<Option virtualFolder="Ennemis/headers/" />
+		</Unit>
+		<Unit filename="genre.cpp">
+			<Option virtualFolder="Fonctions utilitaires/" />
+		</Unit>
+		<Unit filename="genre.h">
+			<Option virtualFolder="Fonctions utilitaires/headers/" />
+		</Unit>
+		<Unit filename="lieu1Repaire.cpp">
+			<Option virtualFolder="Lieux/" />
+		</Unit>
+		<Unit filename="lieu1Repaire.h">
+			<Option virtualFolder="Lieux/headers/" />
+		</Unit>
+		<Unit filename="lieu2Foret.cpp">
+			<Option virtualFolder="Lieux/" />
+		</Unit>
+		<Unit filename="lieu2Foret.h">
+			<Option virtualFolder="Lieux/headers/" />
+		</Unit>
+		<Unit filename="lieu3QuartierPauvre.cpp">
+			<Option virtualFolder="Lieux/" />
+		</Unit>
+		<Unit filename="lieu3QuartierPauvre.h">
+			<Option virtualFolder="Lieux/headers/" />
+		</Unit>
+		<Unit filename="lieu4Boutique.cpp">
+			<Option virtualFolder="Lieux/" />
+		</Unit>
+		<Unit filename="lieu4Boutique.h">
+			<Option virtualFolder="Lieux/headers/" />
+		</Unit>
+		<Unit filename="lieu5Parc.cpp">
+			<Option virtualFolder="Lieux/" />
+		</Unit>
+		<Unit filename="lieu5Parc.h">
+			<Option virtualFolder="Lieux/headers/" />
+		</Unit>
+		<Unit filename="main.cpp">
+			<Option virtualFolder="Fonctions utilitaires/" />
+		</Unit>
+		<Unit filename="verif.cpp">
+			<Option virtualFolder="Fonctions utilitaires/" />
+		</Unit>
+		<Unit filename="verif.h">
+			<Option virtualFolder="Fonctions utilitaires/headers/" />
+		</Unit>
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
